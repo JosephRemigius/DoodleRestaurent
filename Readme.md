@@ -11,4 +11,4 @@ To run in ios
 Note: 
     I have not split the code into components, 
     I have designed all in two pages. 
-    So please bare it when check the code.
+    So please bare it when checking the code.
