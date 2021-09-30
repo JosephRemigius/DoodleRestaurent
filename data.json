@@ -1,0 +1,71 @@
+{
+    "inkaRestaurant":{
+        "Menu":{
+            "Starters":[{
+                "Item":{
+                    "id": 1,
+                    "title":"Guac de la Costa",
+                    "description":"tortillas de mais, fruir de la passion, mango",
+                    "price": 7,
+                    "type1": 1,
+                    "type2": 1,
+                    "qty": 0
+                }
+            },{
+                "Item":{
+                    "id": 2,
+                    "title":"Chicharron y Cerveza",
+                    "description":"citron vert / Corona sauce",
+                    "price": 10,
+                    "type1": 1,
+                    "type2": 0,
+                    "qty": 0
+                }
+            },{
+                "Item":{
+                    "id": 3,
+                    "title":"Chilitos con Cerveza",
+                    "description":"padrones tempura, gambas",
+                    "price": 6,
+                    "type1": 1,
+                    "type2": 0,
+                    "qty": 0
+                }
+            },{
+                "Item":{
+                    "id": 4,
+                    "title":"Guac de la Costa",
+                    "description":"tortillas de mais, fruir de la passion, mango",
+                    "price": 2,
+                    "type1": 1,
+                    "type2": 0,
+                    "qty": 0
+                }
+            },
+            {
+                "Item":{
+                    "id": 5,
+                    "title":"Guac de la Costa",
+                    "description":"tortillas de mais, fruir de la passion, mango",
+                    "price": 12,
+                    "type1": 1,
+                    "type2": 0,
+                    "qty": 0
+                }
+            },
+            {
+                "Item":{
+                    "id": 6,
+                    "title":"Guac de la Costa",
+                    "description":"tortillas de mais, fruir de la passion, mango",
+                    "price": 10,
+                    "type1": 1,
+                    "type2": 0,
+                    "qty": 0
+                }
+            }],
+            "totalQty": 0,
+            "totalAmount" : 0
+        }
+    }
+}
