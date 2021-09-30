@@ -1,3 +1,5 @@
+To get node_modules folder
+    -> npm install
 To start react native server
     -> react-native start reset-cache
 To run in android 

@@ -44,7 +44,7 @@ class MyCart extends React.Component {
                 <View style={{ marginLeft: 20, marginVertical: 20 }}>
                     <Text style={homestyles.header}>Review Order</Text>
                 </View>
-                <View>
+                <View style={{marginBottom:60}}>
                     {
                         cartDishes ?
                         listOfCart.map((item, index) => {
@@ -59,8 +59,17 @@ class MyCart extends React.Component {
 
                             }) : null
                     }
+                   
                 </View>
+                
             </ScrollView>
+            {
+                   totalAmt != 0 ? <TouchableOpacity 
+                   activeOpacity ={1}
+                   style={homestyles.Footer}>
+                   <Text style={{ color: 'white', fontSize: 16 }}>Place Order</Text>
+               </TouchableOpacity> : null 
+                }
         </SafeAreaView>)
     }
 
